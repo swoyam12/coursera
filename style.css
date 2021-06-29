@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.row {
+  width:100%;
+}
+
+.box{
+  border: 1px solid black;
+  background-color: antiquewhite;
+  text-align: justify;
+  position: relative;
+  margin-top:20px;
+  margin-right:20px;
+}
+
+span {
+  border:1px solid black;
+  font-weight: bold;
+  float:right;
+}
+
+#a {
+  background-color: gold; 
+}
+
+#b {
+  background-color: brown;
+  color:white;
+  
+}
+
+#c {
+  background-color: aqua;
+  
+}
+
+p {
+  padding:10px 10px 0px 10px;
+  position: relative;
+  
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .col-md-6 {
+    float: left;
+    width: 50%;
+  }
+  .col-md-12 {
+    float: left;
+    width:100%;
+  }
+
+}
+
+@media (min-width:992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+}
+  
+}
